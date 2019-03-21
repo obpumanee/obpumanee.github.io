@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>O.B.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+
+        <div id="link">
+                <a href="#skill">Skill</a>
+                <a href="#quotes">Quotes</a>
+                <a href="#projects">Projects</a>
+                <a href="#social">Social</a>
+              </div>
+
+    <!-- section1  ScreenShot.png -->
+<div id="wrapper" >
+    <section class="profile">
+            <img class="profile_picture" src="ob.png" alt="">
+            
+        <div id="intro">
+            <h1>O.B.</h1>
+            <p>My passion is creating, and I find happiness in being a better me today.</p>
+            <p>I am a full stack devloper from Sydney Australia. </p>
+        </div>
+                <!---end section1 --->
+    </section>
+    <!---- section 2---->
+           
+   
+           <!--- move to the top -->   
+            
+    <!--section 2 -->
+    <!--- section 3-->
+    <div id="skill">
+        <h2>Skill</h2>
+    </div>
+    <div class="skill2"></div>
+    <!-----######################### --->
+    
+    <!-- <h2 class="w3-center">Manual Slideshow</h2> -->
+
+<div class="w3-content w3-display-container">
+    <div class="mySlides chart"></div>
+    <div class="mySlides planing_pic"></div>
+    <div class="mySlides coding"></div>
+    <div class="mySlides dog"></div>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+    
+   <!-- #########################-->
+   <div id="quotes">
+        <h2>Quotes</h2>
+    </div>
+   
+
+        <div id="people_quotes"> 
+            <p>“A talented up and coming web developer. O.B. is a great team player and thrives when under pressure.”  -Michael B. </p>
+
+                    <p>“The next coming up Web Developer and Designer of the year 2019 ! Make sure to check in frequently to see O.B. his next work of arts !” - Nathaniel M </p>
+                    
+                   <p>“OB has a very bright future ahead of him as a fantastic full stack developer” - Garret B</p>
+        </div>
+   
+    
+    <!-- end section4 ---->
+
+        <!-- section5 --->
+            <!--flex directon phone and desktop will be differece-->
+    
+        <div id="projects">
+            <h2>Projects</h2>
+            <p>I enjoy making complex problems into a simple.  Check out!</p>
+            </div>
+            <div id="projects_pic">
+                    <a href="https://github.com/moralesn1/terminalchoicesgame" target="_blank" alt="Link to Github for Ruby Terminal Application">
+                <img src="Bar_game.png" alt="Terminal Project Picture Bar Story Game">
+            </a>
+            </div>
+            <div id="bar_story">
+                <p>## About this project.
+
+                        This project is designed for people to create their own exciting choice run it through the terminal! </p>
+            </div>
+    <!-- <div>
+        <img src="Bar_game.png" alt="">
+    </div> -->
+
+        
+        <!-- end section5-->
+
+        <!-- section6-->
+        <div id="social">
+            <h2>Social</h2>
+            <a>LinkedIn</a>
+                <a>Medium</a>
+                <a>GitHub</a>
+                <a>Twitter</a>
+                <a>Facebook</a>
+                <a>Email</a>
+        </div>
+        
+    </div>
+    <!-- end section6-->  
+
+</body>
+<footer>
+    <section></section>
+    <p>@2019 O.B. Pumanee Copy Right</p>    
+</footer>
+</html>

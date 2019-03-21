@@ -1,0 +1,285 @@
+
+/*stye of the front shoud be in the top https://fonts.google.com/ */ 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');  
+html {
+      scroll-behavior: smooth;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f2f2f1
+} 
+
+h1{
+    font-size: 50px;
+}
+#intro{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -30px;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+#link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#link a{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    top: 0;
+    color: black;
+
+}
+
+section {
+    display: flex;
+    height: 20%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* ScreenShot.png IMG_9034.png   height: 80vh;
+    width: 100%;*/
+.profile_picture {
+    height: 525px;
+    width:auto ;
+    margin-top: 70px;
+    padding:10px;
+}
+
+#skill{
+    padding: 20px;
+    margin-top: 130px;
+}
+
+#skill h2{
+    padding: 20px;
+    margin: 20px 0 40px 0;
+    
+}
+
+#skill h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+/* #skill{  
+    background-image:url(graph_chart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+.skill2{
+    background-image:url(planing_pic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+} */
+
+.chart {
+    background-image: url("graph_chart.png");
+}
+
+.planing_pic {
+    background-image: url("planing_pic.png");
+}
+
+.coding {
+    background-image: url("coding.png"); 
+}
+
+.dog {
+    background-image: url("dog2.png"); 
+}
+
+.mySlides {
+width: 100%;
+max-width: 600px;
+margin: auto;
+min-height: 300px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+#quotes{
+    padding: 40px;
+}
+
+#quotes h2{
+    padding: 20px;
+    margin: 20px 0 40px 0;
+    font-size: 50px;
+}
+
+#quotes h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#projects_pic img {
+    height: 260px;
+    width: auto;
+    padding: 15px;
+}
+
+#people_quotes{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+#projects{
+    padding: 20px;
+}
+#projects h2{
+    padding: 20px;
+    margin: 20px 0 40px 0;
+}
+
+#projects h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#projects_pic img {
+    height: 260px;
+    width: auto;
+    padding: 15px;
+}
+
+#projects_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#bar_story p{
+font-size: 20px;
+    padding: 30px;
+    align-content: center;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* section img {
+    display: inline-block;
+    width: 10w;
+    height: auto;
+} */
+
+#social{
+    
+    width: auto;
+    font-size: 50px;
+} 
+
+#social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+#social h2{
+
+    margin: 20px 0 40px 0;
+}
+
+#social a{
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+
+
+/*
+#container div{
+    width: 100%;
+    height:100%; */
+    /* background-color: rgb(44, 44, 202); */
+    /* background-color: rgba(63, 81, 181, 0.7)
+    opacity: 0.1; 
+
+    /* div {
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+}
+#container {
+    width: 100%;
+    height: 300px;
+    background-image: url('https://bit.ly/2MJ9T1A');
+    background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 5px 5px 5px 2px black;
+    margin:auto; */
+    /*
+
+    #container div{
+    width: 100%;
+    height:100%; */
+    /* background-color: rgb(44, 44, 202); */
+    /* background-color: rgba(63, 81, 181, 0.7)
+    opacity: 0.1; 
+
+} */
+
+/* h1{
+    text-align: center; 
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+    /* position: absolute; */
+
+    /*
+    top:70%;
+    text-shadow: 15px 4px 3px black;
+    animation: colorful-text 4s linear 0s infinite alternate none;
+    animation: run-across-screen 10s linear 0s 1 alternate none; 
+    */
+
+    /*
+    container {
+        display: flex;
+        justify-content: space-around
+     }
+     */
+
+
+
