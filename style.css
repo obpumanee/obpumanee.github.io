@@ -48,14 +48,14 @@ section{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-}
+}   
 
 .profile_picture{
     height: 525px;
     width:auto ;
     margin-top: 70px;
     padding:10px;
+    border-radius: 80px;
 }
 
 #skill{
